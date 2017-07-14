@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		097C2ADA1F0E2C4D00B1B13A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C2AD91F0E2C4D00B1B13A /* main.swift */; };
+		09FD103F1F0E860500D64256 /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD103E1F0E860500D64256 /* Personnage.swift */; };
+		09FD10411F0F874C00D64256 /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD10401F0F874C00D64256 /* Classe.swift */; };
+		09FD10431F0F906500D64256 /* Arme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD10421F0F906500D64256 /* Arme.swift */; };
+		09FD10451F0F932F00D64256 /* Epee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD10441F0F932F00D64256 /* Epee.swift */; };
+		09FD10471F0F934800D64256 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD10461F0F934800D64256 /* Arc.swift */; };
+		09FD10491F0F936100D64256 /* Sceptre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD10481F0F936100D64256 /* Sceptre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		097C2AD61F0E2C4D00B1B13A /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		097C2AD91F0E2C4D00B1B13A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		09FD103E1F0E860500D64256 /* Personnage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personnage.swift; sourceTree = "<group>"; };
+		09FD10401F0F874C00D64256 /* Classe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
+		09FD10421F0F906500D64256 /* Arme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arme.swift; sourceTree = "<group>"; };
+		09FD10441F0F932F00D64256 /* Epee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epee.swift; sourceTree = "<group>"; };
+		09FD10461F0F934800D64256 /* Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		09FD10481F0F936100D64256 /* Sceptre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sceptre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				097C2AD91F0E2C4D00B1B13A /* main.swift */,
+				09FD103E1F0E860500D64256 /* Personnage.swift */,
+				09FD10441F0F932F00D64256 /* Epee.swift */,
+				09FD10461F0F934800D64256 /* Arc.swift */,
+				09FD10481F0F936100D64256 /* Sceptre.swift */,
+				09FD10401F0F874C00D64256 /* Classe.swift */,
+				09FD10421F0F906500D64256 /* Arme.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -121,7 +139,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FD10411F0F874C00D64256 /* Classe.swift in Sources */,
 				097C2ADA1F0E2C4D00B1B13A /* main.swift in Sources */,
+				09FD10471F0F934800D64256 /* Arc.swift in Sources */,
+				09FD10451F0F932F00D64256 /* Epee.swift in Sources */,
+				09FD10431F0F906500D64256 /* Arme.swift in Sources */,
+				09FD10491F0F936100D64256 /* Sceptre.swift in Sources */,
+				09FD103F1F0E860500D64256 /* Personnage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +279,7 @@
 				097C2ADF1F0E2C4D00B1B13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
